@@ -1,0 +1,16 @@
+@font-face {
+    font-family: customFont;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: customFont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}

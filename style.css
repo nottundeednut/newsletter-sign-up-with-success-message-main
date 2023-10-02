@@ -13,4 +13,67 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: hsl(234, 29%, 20%);
+}
+
+.container {
+    display: flex;
+    height: 800px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.right_container {
+    width: 40%;
+}
+
+.left_container {
+    width: 60%;
+}
+
+.right_container img {
+    width: 100%;
+}
+
+ul {
+    list-style-image: url(./assets/images/icon-success.svg);
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px 20px;
+    font-family: inherit ;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid hsl(231, 7%, 60%);
+}
+
+button {
+    font-family: inherit;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: hsl(235, 18%, 26%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 50px;
 }
